@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>개미 키우기</title>
+    <link rel="preload" href="./g11.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./g11b.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="./assets/index-BZQyDUpt.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-RyLHj8Gb.css">
+      <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#3b2416" />
+    <link rel="icon" href="icon-192.png" />
+    <script>if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js'));</script>
+  </head>
+  <body>
+    <div class="app" id="ph">
+      <div class="hud2">
+        <div class="h0">
+          <div class="badge" id="rk"><em id="gen">1세</em><b id="rkn">용돈 개미</b></div>
+          <button class="gear" id="gear" aria-label="설정"><canvas data-ic="gear" width="9" height="9"></canvas></button>
+        </div>
+        <div class="h2">
+          <div class="money">
+            <div class="big" id="tot">0</div>
+            <div class="chg"><span id="chg">▲ 1초에 +0</span></div>
+            <div class="timers" id="tmr" hidden></div>
+            <div class="wx2" id="wx">어제 코스피 확인 중 · <span id="mk">장중</span></div>
+          </div>
+          <div class="hr">
+            <div class="curs">
+              <span class="cur" aria-label="정보료"><canvas data-ic="info" width="9" height="9"></canvas><b id="cInfo">0</b></span>
+              <span class="cur" aria-label="의결권"><canvas data-ic="vote" width="9" height="9"></canvas><b id="cVote">0</b></span>
+              <button class="cur barb" id="barBtn" aria-label="금괴 상점"><canvas data-ic="bar" width="9" height="9"></canvas><b id="cBar">0</b><i>+</i></button>
+            </div>
+            <button class="boostb pxc" id="bst"><canvas data-ic="tv" width="9" height="9"></canvas><span id="bstT">광고 보고<br />수익 2배</span></button>
+          </div>
+        </div>
+        <div class="h3"><span id="nx">다음 승급</span><div class="bar"><i id="bar"></i></div><span id="nxv"></span></div>
+      </div>
+      <div class="sc" id="sc">
+        <canvas class="scene" id="scn" width="120" height="130"></canvas>
+        <div class="bub pxc" id="chat"></div>
+      </div>
+      <div class="dock">
+        <div class="quest pxc" id="quest"><span class="qtag" id="qtag">퀘스트</span><span class="qt" id="qt"></span><button class="btn" id="qb">받기</button></div>
+        <div class="list" id="list"></div>
+        <div class="list" id="pane" hidden></div>
+      </div>
+      <nav class="nav" id="tabs">
+        <button data-t="0" class="on"><canvas data-ic="stock" width="12" height="12"></canvas><span>종목</span></button>
+        <button data-t="2"><canvas data-ic="friend" width="12" height="12"></canvas><span>친구</span></button>
+        <button data-t="4"><canvas data-ic="sub" width="12" height="12"></canvas><span>도전</span><i class="dot" id="chalDot" hidden></i></button>
+        <button data-t="3"><canvas data-ic="bell" width="12" height="12"></canvas><span>상장</span><i class="dot" id="ipoDot" hidden></i></button>
+        <button data-t="1"><canvas data-ic="mis" width="12" height="12"></canvas><span>미션</span><i class="dot" id="misDot" hidden></i></button>
+        <button data-t="5"><canvas data-ic="book" width="12" height="12"></canvas><span>도감</span><i class="dot" id="bookDot" hidden></i></button>
+      </nav>
+    </div>
+  </body>
+</html>
